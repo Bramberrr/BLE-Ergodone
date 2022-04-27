@@ -1,0 +1,5 @@
+{
+    "board": "arduino:avr:leonardo",
+    "sketch": "examples\\keyboard_USB_BLE\\keyboard_USB_BLE.ino",
+    "port": "COM11"
+}

@@ -1,0 +1,33 @@
+#ifndef KEYBOARDFIRMWARE_CONFIG_H
+#define KEYBOARDFIRMWARE_CONFIG_H 1
+
+#define debug_enable 0
+#define BAUD_RATE 115200
+// #define USB_KEYBOARD
+#define BLE_KEYBOARD
+
+#define EXTRAKEY_ENABLE 1
+#define MOUSEKEY_ENABLE 1
+#define JOYSTICK_ENABLE 0
+
+#define MATRIX_ROWS 6
+#define MATRIX_COLS 14
+
+#define SINGLE_HAND_MATRIX_ROWS 6
+#define SINGLE_HAND_MATRIX_COLS 7
+
+#define RX_PIN 10
+#define TX_PIN 14
+
+
+
+#define LED_PIN 9
+
+#define DEBOUNCE 5
+
+#define MOUSEKEY_ENABLE 1
+#define MOUSEKEY_MAX_SPEED 30
+#define MOUSEKEY_MOVE_DELTA 1
+#define MOUSEKEY_INTERVAL 20
+#define MOUSEKEY_MOVE_MAX 20
+#endif
