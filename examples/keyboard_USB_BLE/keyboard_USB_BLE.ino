@@ -89,7 +89,7 @@ void keyboardScan()
                 }
             }
 
-            if(r == 1 && c_row == 0)
+            if(r == 2 && c_row == 0)
                 CapLED();
             
             last_r = r;
